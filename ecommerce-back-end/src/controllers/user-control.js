@@ -1,3 +1,4 @@
+// code by alok
 const user = require('../models/user-model')
 exports.signup = (req,res)=>{
     user.findOne({email: req.body.email})
